@@ -1,6 +1,6 @@
-# Logitech Sales Forecasting — Interview Take-Home Project
+# Product Sales Forecasting — Interview Take-Home Project
 
-End-to-end time series forecasting pipeline for Logitech product sales data. Originally completed as part of an MSBA interview case study at the University of Miami.
+End-to-end time series forecasting pipeline for consumer electronics product sales data. Originally completed as part of an MSBA interview case study at the University of Miami.
 
 ## Project Overview
 
@@ -21,7 +21,7 @@ Given ~44 months of monthly sales data across multiple product categories and re
 │   └── forecast_best_model.csv               # 12-month forecasts (best model per series)
 ├── docs/
 │   ├── Interview_Candidate_Assignment.pdf    # Original assignment brief
-│   └── Logitech_Forecast_Summary.pdf         # Executive summary report
+│   └── Forecast_Summary.pdf                  # Executive summary report
 ├── requirements.txt
 └── .gitignore
 ```
@@ -42,7 +42,7 @@ Model selection uses **expanding-window cross-validation** (2 folds, 12-month ho
 
 - **87 viable product series** identified after cleaning (from 100+ raw series)
 - **Strong December seasonality** across all regions (~1.8x average month)
-- **Region B** dominates total volume; Product Groups C, A, I, G account for ~76% of sales
+- **Top 4 product groups** account for ~76% of total sales volume
 - **Best-performing models vary by series** — no single model dominates, justifying the multi-model approach
 
 ## Setup
@@ -55,6 +55,10 @@ jupyter notebook Individual_Project_DanielRegalado.ipynb
 ## Tools & Libraries
 
 Python 3.10+ with pandas, numpy, matplotlib, seaborn, statsmodels, scikit-learn, and statsforecast (Nixtla).
+
+## Course
+
+MAS 640 — Applied Time Series Analysis and Forecasting (Spring 2026), University of Miami
 
 ## Author
 
