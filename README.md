@@ -1,6 +1,6 @@
 # Product Sales Forecasting — Interview Take-Home Project
 
-End-to-end time series forecasting pipeline for consumer electronics product sales data. Originally completed as part of an MSBA interview case study at the University of Miami.
+End-to-end time series forecasting pipeline for consumer electronics product sales data.
 
 ## Project Overview
 
